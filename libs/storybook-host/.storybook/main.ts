@@ -14,8 +14,7 @@ const config: StorybookConfig = {
   refs: {
     proj1: {
       title: 'spa-common',
-      url: 'http://localhost:6001',
-      // expanded: true,
+      url: `${process.env.STORYBOOK_HOST}/spa-common`,
     },
   },
 
